@@ -13,6 +13,14 @@ def quadratic(arguments: list[float]):
     root2 = (-b - x**0.5)/2*a
     return root1, root2
 
+def multiply(arguments: list[float]):
+    if not arguments:
+        return 1
+    total = arguments[0]
+    for arg in arguments[1:]:
+        total *= arg
+    return total
+
 if __name__ == '__main__':
     stuff= [float(arg) for arg in sys.argv[1:]]
     print(quadratic(stuff))
