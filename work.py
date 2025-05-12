@@ -14,7 +14,8 @@ def quadratic(arguments: list[float]):
     return root1, root2
 
 def derivative(arguments: list[float]):
-    ...
+    #This is very hard to program actually
+    raise NotImplementedError
 
 def multiply(arguments: list[float]):
     if not arguments:
