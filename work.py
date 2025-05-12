@@ -13,10 +13,6 @@ def quadratic(arguments: list[float]):
     root2 = (-b - x**0.5)/2*a
     return root1, root2
 
-def derivative(arguments: list[float]):
-    #This is very hard to program actually
-    raise NotImplementedError
-
 def multiply(arguments: list[float]):
     if not arguments:
         return 1
