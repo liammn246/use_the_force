@@ -11,8 +11,3 @@ def quadratic(arguments: list[float]):
     root2 = (-b - x**0.5)/2*a
     return root1, root2
 
-def add(arguments: list[float]):
-    total = 0
-    for arg in arguments:
-        total = arg
-    return total
