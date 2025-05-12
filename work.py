@@ -1,3 +1,5 @@
+import sys
+
 def quadratic(arguments: list[float]):
     if len(arguments) < 3:
         return "Not valid"
@@ -11,3 +13,6 @@ def quadratic(arguments: list[float]):
     root2 = (-b - x**0.5)/2*a
     return root1, root2
 
+if __name__ == '__main__':
+    stuff= [float(arg) for arg in sys.argv[1:]]
+    print(quadratic(stuff))
