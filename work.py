@@ -39,4 +39,5 @@ def subtract(arguments: list[float]):
 
 if __name__ == '__main__':
     stuff= [float(arg) for arg in sys.argv[1:]]
+    #BUG FIX RIGHT HERE
     print(quadratic(stuff))
